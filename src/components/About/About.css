@@ -1,0 +1,45 @@
+.about {
+    margin-top: 64px;
+    color: rgba(255,255,255,0.9);
+}
+
+.header {
+    font-size: 3rem;
+    display: grid;
+    justify-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.me {
+    width: 50%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.list {
+    font-size: 2rem;   
+}
+
+.content {
+    font-size: 1rem;
+}
+
+.content-list {
+    line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+strong {
+    font-weight: bold;
+}

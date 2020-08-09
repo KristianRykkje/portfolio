@@ -1,0 +1,51 @@
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    line-height: 1.8rem !important;
+}
+
+.under-header {
+    margin-top: 2px;
+    justify-self: center;
+    width: 60%;
+    border-style: none none solid none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.skills {
+    margin-top: 64px;
+    display: grid;
+    grid-row-gap: 8px;
+}
+
+.box-list {
+    margin: 0 15%;
+    border: 0;
+    display: grid;
+    grid-template-columns: 2% 25% 5% 68%;
+}
+
+.list-image {
+    display: grid;
+}
+
+
+
+.list-content {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .image-size {
+        width: 50%;
+        height: auto;
+    }
+}

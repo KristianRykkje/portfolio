@@ -1,0 +1,4 @@
+.navbar__link--active {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    transition: border-bottom .5s ease-in-out;
+}

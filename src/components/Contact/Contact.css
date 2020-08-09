@@ -1,0 +1,28 @@
+.contact {
+    margin-top: 64px;
+    color: rgba(255,255,255,0.8);
+}
+
+.content-contact {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    font-size: 1.5rem;
+}
+
+.centered-list {
+    display: grid;
+    justify-content: center;
+    line-height: 2rem;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .content-contact {
+        grid-template-columns: 100%;
+    }
+    .centered-list {
+        margin-left: 4rem;
+        justify-content: start;
+    }
+}

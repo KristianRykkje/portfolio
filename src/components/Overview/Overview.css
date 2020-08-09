@@ -1,0 +1,15 @@
+.overview {
+    margin-top: 100px;
+}
+
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    width: 10%;
+    height: auto;
+    margin: 2rem;
+}
