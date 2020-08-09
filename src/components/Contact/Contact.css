@@ -19,10 +19,9 @@
 
 @media (max-width: 768px) {
     .content-contact {
-        grid-template-columns: 100%;
+        grid-template-columns: 10% 80% 10%;
     }
     .centered-list {
-        margin-left: 4rem;
         justify-content: start;
     }
 }

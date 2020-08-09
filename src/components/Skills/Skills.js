@@ -60,7 +60,7 @@ const Skills = () => (
             <div>
                 <h2>SASS</h2>
                 <p className="list-content">
-                    I really enjoy working with css. From using flexbox and grid to custumizing everything on a webpage with little to none limitations is exciting although time consuming. I feel pretty comfortable in using css and the resources online is astounding and intuitive. I use resources like w3schools.com and css-tricks.com. I even use cheatsheets like darekkay.com/dev/flexbox-cheatsheet.html and grid.malven.co/ which are easy to understand and implement.
+                    "CSS with superpowers" sums it up in my opinion too. Makes it a lot easier working with scalable projects.
                 </p>
             </div>
         </div>
