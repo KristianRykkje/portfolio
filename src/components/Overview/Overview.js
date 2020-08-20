@@ -18,6 +18,10 @@ import GoogleAnalytics from '../../images/GoogleAnalytics.png';
 import redux from '../../images/redux-logo.png';
 import GitHub from '../../images/GitHub-logo.png';
 import sass from '../../images/sass-logo.png';
+import MongoDB from '../../images/MongoDB.png';
+import Passportjs from '../../images/Passportjs.png';
+import Stripe from '../../images/Stripe.png';
+
 
 const Overview = () => {
     return (
@@ -39,7 +43,10 @@ const Overview = () => {
                 <img className="img" src={GoogleAnalytics} alt="" />
                 <img className="img" src={redux} alt="" />
                 <img className="img" src={GitHub} alt="" />
+                <img className="img" src={MongoDB} alt="" />
                 <img className="img" src={sass} alt="" />
+                <img className="img" src={Passportjs} alt="" />
+                <img className="img" src={Stripe} alt="" />
             </div>
         </div>
     );
