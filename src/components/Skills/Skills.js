@@ -10,7 +10,7 @@ import react from '../../images/react-logo.png';
 import postgresql from '../../images/postgresql-logo.png';
 import python from '../../images/python-logo.png';
 import maple from '../../images/maple-logo.png';
-import matlab from '../../images/matlab-logo.png';
+// import matlab from '../../images/matlab-logo.png';
 import csharp from '../../images/c-sharp-logo.png';
 import GoogleAnalytics from '../../images/GoogleAnalytics.png';
 import redux from '../../images/redux-logo.png';
@@ -207,7 +207,7 @@ const Skills = () => (
                 </p>
             </div>
         </div>
-        <div className="box-list">
+        {/* <div className="box-list">
             <p></p>
             <p>
                 <img className="list-image image-size" src={matlab} alt="" />
@@ -219,7 +219,7 @@ const Skills = () => (
                     I have used matlab in university. I know the basic and are comfortable learning more if needed.
                 </p>
             </div>
-        </div>
+        </div> */}
         <div className="box-list">
             <p></p>
             <p>

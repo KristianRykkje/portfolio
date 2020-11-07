@@ -15,7 +15,7 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
-import Overview from './components/Overview/Overview';
+// import Overview from './components/Overview/Overview';
 
 import { particlesOptions } from './components/ParticlesOptions/ParticlesOptions';
 
@@ -49,8 +49,8 @@ class App extends React.Component {
                     <SideDrawer show={this.state.sideDrawerOpen} />
                     {backdrop}
                     <Switch>
-                        <Route path="/" exact component={Overview} />
-                        <Route path="/projects" exact component={Projects} />
+                        {/* <Route path="/" exact component={Overview} /> */}
+                        <Route path="/" exact component={Projects} />
                         <Route path="/skills" exact component={Skills} />
                         <Route path="/about" exact component={About} />
                         <Route path="/contact" exact component={Contact} />

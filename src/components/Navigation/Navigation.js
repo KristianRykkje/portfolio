@@ -5,7 +5,7 @@ import './Navigation.css';
 
 export const Navigation = () => (
     <ul>
-        <li>
+        {/* <li>
             <NavLink 
                 exact
                 activeClassName="navbar__link--active"                        
@@ -13,12 +13,12 @@ export const Navigation = () => (
                 >
                     Overview
             </NavLink>
-        </li>
+        </li> */}
         <li>
             <NavLink 
                 exact
                 activeClassName="navbar__link--active"                        
-                to="/projects"
+                to="/"
                 >
                     Projects
             </NavLink>
